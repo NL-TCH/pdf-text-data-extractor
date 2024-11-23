@@ -1,7 +1,7 @@
 version: "3.3"
 services:
-  pdf-text-data-extractor:
-    container_name: pdf-text-data-extractor
+  pdf-text:
+    container_name: data-extractor
     build: .
     ports:
       - "8501:8501"
