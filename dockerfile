@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     curl \
     software-properties-common \
     git \
-    tesseract-ocr-all\
+    tesseract-ocr-all \
+    poppler-utils \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install -r requirements.txt
